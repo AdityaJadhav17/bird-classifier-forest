@@ -1,0 +1,91 @@
+Python
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+s3cmd/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+Project-specific generated files (Colab creates these in /content/)
+/content/bird/
+/content/forest/
+/content/models/
+/content/test_images/
+/content/data/
+
+Colab temporary files
+/sample_data/
+/sample_data/
+/drive/
+*.ipynb
+
+IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+Logs
+*.log
+logs/
+
+Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+Temporary files
+*.tmp
+*.temp
+temp/
+
+Large data files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+Colab specific
+.datalab/
+.config/
