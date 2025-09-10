@@ -64,11 +64,11 @@ Run the notebook cells sequentially to reproduce the results 🚀
 ## 📁 Project Structure
 
 ```bash
-bird-classifier-forest/
-├── is_it_a_bird.ipynb      # Main Jupyter notebook
+bird-classifier-forest/-   
 ├── .gitignore              
-├── LICENSE                 
-└── README.md           
+├── LICENSE
+├── README.md                  
+└── is_it_a_bird.ipynb           
 ```
 ## 🎓 Methodology
 
