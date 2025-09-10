@@ -1,12 +1,13 @@
-#🐦 Bird vs. Forest Image Classifier 🌲#
-A fun and interactive deep learning project that demonstrates how to build an image classifier to distinguish between bird photos and forest photos using transfer learning with FastAI!
+# 🐦 Bird vs. Forest Image Classifier 🌲
 
-✨ Overview
+## ✨ Overview
+
 Inspired by the 2015 XKCD comic that humorously highlighted the challenge of creating a computer system that could recognize birds 🎭, this project shows how modern deep learning techniques can accomplish this task in just minutes with free resources! ⚡
 
 ---
 
-🚀 Features
+## 🚀 Features
+
 🌐 Web Image Search: Uses DuckDuckGo Search API to automatically gather training images
 
 🧠 Transfer Learning: Leverages a pre-trained neural network for efficient training
@@ -19,7 +20,8 @@ Inspired by the 2015 XKCD comic that humorously highlighted the challenge of cre
 
 ---
 
-🛠️ Technical Stack
+## 🛠️ Technical Stack
+
 🐍 Python 3.7+
 
 ⚡ FastAI - For deep learning and transfer learning
@@ -32,7 +34,7 @@ Inspired by the 2015 XKCD comic that humorously highlighted the challenge of cre
 📥 Clone this repository
 
 ```bash
-git clone https://github.com/your-username/is_it_a_bird.git
+git clone https://github.com/AdityaJadhav17/bird-classifier-forest.git
 cd is_it_a_bird
 🔧 Install the required dependencies:
 
@@ -41,7 +43,8 @@ pip install fastai duckduckgo_search
 🎮 For GPU support (recommended ⚡), ensure you have appropriate CUDA drivers installed
 ```
 ---
-🎯 Usage
+## 🎯 Usage
+
 The project is organized as a Jupyter notebook (is_it_a_bird.ipynb) that guides you through the entire process:
 
 🖼️ Image Collection: Automatically searches and downloads bird and forest images
@@ -58,7 +61,8 @@ Run the notebook cells sequentially to reproduce the results 🚀
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
+
 ```bash
 bird-classifier-forest/
 ├── is_it_a_bird.ipynb      # Main Jupyter notebook
@@ -66,7 +70,8 @@ bird-classifier-forest/
 ├── LICENSE                 
 └── README.md           
 ```
-🎓 Methodology
+## 🎓 Methodology
+
 🔍 Data Collection: Uses DuckDuckGo to search for "bird photos" and "forest photos"
 
 📊 Data Preparation: Downloads and organizes images into categories
@@ -79,10 +84,12 @@ bird-classifier-forest/
 
 ---
 
-📈 Results
+## 📈 Results
+
 The model achieves 97.6% accuracy 🎯 in distinguishing between bird photos and forest scenes, demonstrating the power of transfer learning even with limited training data!
 
-🎪 Applications
+## 🎪 Applications
+
 This approach can be adapted for various image classification tasks including:
 
 🐦 Wildlife identification
@@ -97,7 +104,8 @@ This approach can be adapted for various image classification tasks including:
 
 ---
 
-⚠️ Limitations
+## ⚠️ Limitations
+
 📷 Training data quality depends on search engine results
 
 🐦 May require additional training for specific bird species
@@ -118,5 +126,6 @@ This approach can be adapted for various image classification tasks including:
 🎨 Add more categories (animals, landscapes, objects)
 
 ---
-📜 License
+## 📜 License
+
 This project is open source and available under the MIT License. 📄
