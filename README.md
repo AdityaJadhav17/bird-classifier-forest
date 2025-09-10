@@ -1,4 +1,4 @@
-🐦 Bird vs. Forest Image Classifier 🌲
+#🐦 Bird vs. Forest Image Classifier 🌲#
 A fun and interactive deep learning project that demonstrates how to build an image classifier to distinguish between bird photos and forest photos using transfer learning with FastAI!
 
 ✨ Overview
